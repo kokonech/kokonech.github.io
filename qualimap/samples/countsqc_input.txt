@@ -1,0 +1,8 @@
+#Sample	Condition	Path	Column
+nGlcn01	nGlcn	mouse_counts_ensembl.txt	2
+nGlcn02	nGlcn	mouse_counts_ensembl.txt	3
+nGlcn03	nGlcn	mouse_counts_ensembl.txt	4
+pGlcn01	pGlcn	mouse_counts_ensembl.txt	7
+pGlcn02	pGlcn	mouse_counts_ensembl.txt	8
+pGlcn03	pGlcn	mouse_counts_ensembl.txt	9
+
