@@ -12,6 +12,7 @@ QUALIMAP_CMD=qualimap
 
 # RNA-seq QC
 
+$QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /data/qualimap_release_data/annotations/human.64.gtf -oc /home/kokonech/tmp/kidney.counts -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/kidney_rnaseqqc
 
 
 # Multisample BAM QC
