@@ -4,6 +4,8 @@ QUALIMAP_CMD=qualimap
 
 # BAM QC
 
+$QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/HG00096.chrom20.bam -c -gd human -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/HG00096.chr20_bamqc
+
 
 
 # BAM QC with regions
@@ -17,7 +19,7 @@ $QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /da
 
 # Multisample BAM QC
 
-$QUALIMAP_CMD multi-bamqc -i /data/qualimap_release_data/multisample_bamqc/gh2ax_chip_seq.txt -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/gh2ax_multibamqc
+$QUALIMAP_CMD multi-bamqc -d /data/qualimap_release_data/multisample_bamqc/gh2ax_chip_seq.txt -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/gh2ax_multibamqc
 
 # Counts QC
 
