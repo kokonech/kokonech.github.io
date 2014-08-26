@@ -6,7 +6,7 @@ QUALIMAP_CMD=qualimap
 
 $QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/HG00096.chrom20.bam -c -gd human -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/HG00096.chr20_bamqc
 
-
+$QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/ERR089819.bam -c -outfile /home/kokonech/playgrnd/kokonech.github.io/qualimap/ERR089819_report.pdf
 
 # BAM QC with regions
 
