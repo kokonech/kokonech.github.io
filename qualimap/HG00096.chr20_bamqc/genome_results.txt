@@ -4,7 +4,7 @@ BamQC report
 >>>>>>> Input
 
      bam file = /data/qualimap_release_data/alignments/HG00096.chrom20.bam
-     outfile = /home/kokonech/playgrnd/kokonech.github.io/qualimap/HG00096.chr20_bamqc/genome_results.txt
+     outfile = HG00096.chr20_bamqc/genome_results.txt
 
 
 >>>>>>> Reference
@@ -23,6 +23,7 @@ BamQC report
      number of mapped bases = 277,945,166 bp
      number of sequenced bases = 277,880,187 bp
      number of aligned bases = 0 bp
+     number of duplicated reads (marked) = 39,111
 
 
 >>>>>>> Insert size
@@ -46,6 +47,17 @@ BamQC report
      number of N's = 0 bp (0%)
 
      GC percentage = 43.18%
+
+
+>>>>>>> Mismatches and indels
+
+    general error rate = 0
+    number of mismatches = 938,327
+    number of insertions = 22,503
+    mapped reads with insertion percentage = 0.74%
+    number of deletions = 27,083
+    mapped reads with deletion percentage = 0.89%
+    homopolymer indels = 56.85%
 
 
 >>>>>>> Coverage
@@ -108,6 +120,6 @@ BamQC report
 
 >>>>>>> Coverage per contig
 
-	20	63025520	277945166	4.410041614888699	2.7506643469505576
+	20	63025520	277945166	4.410041614888699	2.752316808046498
 
 
