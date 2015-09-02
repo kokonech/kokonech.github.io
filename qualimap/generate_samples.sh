@@ -17,12 +17,12 @@ QUALIMAP_CMD=qualimap
 
 # RNA-seq QC
 
-$QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /data/qualimap_release_data/annotations/human.64.gtf -oc /home/kokonech/tmp/kidney.counts -outdir kidney_rnaseqqc --java-mem-size=4G
+#$QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /data/qualimap_release_data/annotations/human.64.gtf -oc /home/kokonech/tmp/kidney.counts -outdir kidney_rnaseqqc --java-mem-size=4G
 
 
 # Multisample BAM QC
 
-#$QUALIMAP_CMD multi-bamqc -d /data/qualimap_release_data/multisample_bamqc/gh2ax_chip_seq.txt -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/gh2ax_multibamqc
+$QUALIMAP_CMD multi-bamqc -d /data/qualimap_release_data/multisample_bamqc/gh2ax_chip_seq.txt -outdir gh2ax_multibamqc
 
 # Counts QC
 
