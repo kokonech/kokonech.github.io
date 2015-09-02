@@ -6,15 +6,18 @@ QUALIMAP_CMD=qualimap
 
 #$QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/HG00096.chrom20.bam -c -gd human -outdir HG00096.chr20_bamqc
 
-$QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/ERR089819.bam -c -outfile ERR089819_report.pdf -outdir .
+#NOTE: the PDF file should be copied
+
+#$QUALIMAP_CMD bamqc -bam /data/qualimap_release_data/alignments/ERR089819.bam -c -outfile ERR089819_report.pdf -outdir .
 
 # BAM QC with regions
 
+# TODO
 
 
 # RNA-seq QC
 
-#$QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /data/qualimap_release_data/annotations/human.64.gtf -oc /home/kokonech/tmp/kidney.counts -outdir /home/kokonech/playgrnd/kokonech.github.io/qualimap/kidney_rnaseqqc
+$QUALIMAP_CMD rnaseq -bam /data/qualimap_release_data/counts/kidney.bam -gtf /data/qualimap_release_data/annotations/human.64.gtf -oc /home/kokonech/tmp/kidney.counts -outdir kidney_rnaseqqc --java-mem-size=4G
 
 
 # Multisample BAM QC
