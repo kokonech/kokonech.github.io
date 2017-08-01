@@ -1,4 +1,4 @@
 #Sample	Condition	Path	Column
 Kidney	kidney	kidney.counts	2
-Liver   liver	liver.counts	2
+Liver	liver	liver.counts	2
 
